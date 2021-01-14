@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="CreateAnAccount">Create An Account</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Telephone">Telephone</string>
+    <string name="Password">Password</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="AlreadyHaveAnAccount">Already Have An Account?</string>
+    <string name="SıgnIn">Sıgn In</string>
+
+
+    <string name="customer">I am a customer</string>
+    <string name="owner">I own a saloon</string>
+    <string name="customer1">Continue as customer</string>
+    <string name="owner1">Continue as owner</string>
+
+    <string name="welcome">Welcome</string>
+
+    <string name="myplaces">My Places</string>
+    <string name="myappointment">My Appointments</string>
+    <string name="newappointment">New Appointments</string>
+    <string name="placesnearme">Places Near Me</string>
+
+    <string name="confirmed">Confirmed</string>
+    <string name="Pending">Pending</string>
+    <string name="Change">Change</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="barber">Barber</string>
+    <string name="hairdresser">Hairdressers</string>
+
+    <string name="editprofile">Edit Profile</string>
+    <string name="changelocation">Change Location</string>
+    <string name="PrivacyandTerms">Privacy and Terms</string>
+
+    <string name="City">City </string>
+    <string name="District">District </string>
+    <string name="Update">Update</string>
+
+
+</resources>

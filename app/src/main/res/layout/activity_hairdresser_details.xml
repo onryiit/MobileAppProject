@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HairdresserDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/actionbar" android:id="@+id/action_barHairdrasserDetails" > </include>
+
+
+            <Button
+                android:id="@+id/saloon1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_barHairdrasserDetails"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/pink"
+                android:text="saloon1"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/saloon2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/saloon1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/pink"
+                android:text="saloon2"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/saloon3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/saloon2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/pink"
+                android:text="saloon3"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/saloon4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/saloon3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/pink"
+                android:text="saloon4"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

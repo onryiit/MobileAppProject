@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Editprofile"
+            android:parentActivityName=".Settings"> </activity>
+        <activity
+            android:name=".Changelocation"
+            android:parentActivityName=".Settings" />
+        <activity
+            android:name=".Settings"
+            android:parentActivityName=".MainActivity"> </activity>
+        <activity
+            android:name=".HairdresserDetails"
+            android:parentActivityName=".PlacesNearMe"> </activity>
+        <activity
+            android:name=".BarberDetails"
+            android:parentActivityName=".PlacesNearMe" />
+        <activity
+            android:name=".PlacesNearMe"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NewAppointment"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MyAppointments"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MyPlaces"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".owner_saloon" />
+        <activity
+            android:name=".SignIn"
+            android:parentActivityName=".Introduction" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Introduction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
